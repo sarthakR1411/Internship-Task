@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .outerline{
+            list-style-type: none;
+            border:1px solid black;
+            padding: 10px;
+        }
+        ui.inner{
+            list-style-type: none;
+        }
+        li{
+            margin: 5px;
+            padding:5px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="outerline">
+        <h1>Lists can be nested (list inside list):</h1>
+            <ul>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <ul class="inner">
+                    <li>Black Tea</li>
+                    <li>Green Tea</li>
+                </ul>
+                <li>Milk</li>
+            </ul>
+    </div>
+</body>
+</html>

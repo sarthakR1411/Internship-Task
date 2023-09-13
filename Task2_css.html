@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .horizontal-nav {
+            background-color: lightblue;
+            overflow: hidden;
+        }
+
+        .horizontal-nav a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .horizontal-nav a:hover {
+            background-color: gray;
+        }
+
+        .vertical-nav {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            width: 150px;
+            border: 1px solid black;
+        }
+
+        .vertical-nav li {
+            padding: 10px;
+            background-color: lightblue;
+        }
+
+        .vertical-nav li a {
+            display: block;
+            text-decoration: none;
+            color: black;
+        }
+
+        .vertical-nav li:hover {
+            background-color: yellow;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h2>Horizontal Navigation Bar</h2>
+    <div class="horizontal-nav">
+        <a href="#">Home</a>
+        <a href="#">Java</a>
+        <a href="#">CSS</a>
+        <a href="#">HTML</a>
+        <a href="#">Bootstrap</a>
+    </div>
+
+    <h2>Vertical Navigation Bar</h2>
+    <ul class="vertical-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Java</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">Bootstrap</a></li>
+    </ul>
+
+</body>
+</html>

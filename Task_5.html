@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <style>
+            h1{
+                color: blue;
+                text-align: center;
+            }
+            table{
+                width: 100%;
+                border-collapse: collapse;
+            }      
+            table,th,td{
+                border: 1px solid black;
+            }
+            th,td{
+                padding: 10px;
+                text-align: left;
+            }
+            .radio-container{
+                display: flex;
+                align-items: center;
+            }
+            .radio-container{
+                margin-right: 10px;
+            }
+            .center{
+                text-align: center;
+            }
+            .button-container{
+                margin-top: 20px;
+            }
+            </style>
+            <h1>Registration form</h1>
+            <forms>
+                <table>
+                    <tr>
+                        <td><label for="First Name">First Name</label></td>
+                        <td><input type="text" id="First Name"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="Last Name">Last Name</label></td>
+                        <td><input type="text" id="Last Name"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="Email">Email</label></td>
+                        <td><input type="email" id="Email"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="Password">Password</label></td>
+                        <td><input type="password" id="Password"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="Re-enter Password">Re-enter Password</label></td>
+                        <td><input type="password" id="Re-enter Password"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Gender:</td>
+                        <td class="radio container">
+                            <label for="Male">Male</label>
+                            <input type="radio" id="Male" name="Gender">
+        
+                            <label for="Female">Female</label>
+                            <input type="radio" id="Female" name="Gender">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="Age">Age:</label></td>
+                        <td><input type="number" id="Age" min="0" maxlength="2"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="Phone Number">Phone Number</label></td>
+                        <td><input type="tel" id="Phone Number" maxlength="10"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="Address">Address</label></td>
+                        <td><input type="text" id="Address"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="State">State</label></td>
+                        <td><input type="text" id="State"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="Country">Country</label></td>
+                        <td><select id="Country">
+                            <option id="Choose your country" value="Choose your country">Choose your country</option>
+                            <option id="Maharashtra" value="Maharashtra">Maharashtra</option>
+                            <option id="Haryana" value="Haryana">Gujarat</option>
+                            <option id="Gujrat" value="Gujarat">Gujarat</option>
+                            <option id="Tamilnadu" value="Tamilnadu">Tamilnadu</option>
+                        </select></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Languages Known</td>
+                        <td>
+                        <input type="checkbox" id="Marathi" name="Languages Known" value="Marathi"/>
+                        <label for="Marathi">Marathi</label>
+                        <input type="checkbox" id="Hindi" name="Languages Known" value="Hindi">
+                        <label for="Hindi">Hindi</label>
+                        <input type="checkbox" id="English" name="Languages Known" value="English">
+                        <label for="English">English</label>
+                        <input type="checkbox" id="Telugu" name="Languages Known" value="Telugu">
+                        <label for="Telugu">Telugu</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <input type="checkbox" id="Hereby I declare all the given details are true" value="Hereby I declare all the given details are true">
+                            <label for="Hereby I declare all the given details are true">Hereby I declare all the given details are true</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <div style="text-align: right; margin-right: 10px;">
+                                <span>log in to </span>
+                                <a href="https://ethnus.com/" target="_blank" style="text-decoration: none; color: blue;">Ethnus</a>
+                                <span> Website</span>
+                            </div>
+                        </td>
+                    </tr>
+                </table> 
+                <div class="center button-container">
+                    <button type="submit">Register</button><br>
+                </div>
+            </forms>
+        </body>
+    </head>
+</html>
